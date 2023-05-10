@@ -1,0 +1,340 @@
+.main {
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: center;
+    background-color: rgba(177, 106, 106, 0.1);
+    padding: 0 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1200px;
+    grid-template-areas: "features features features certificate certificate"
+        " description  description description  certificate certificate"
+        "curriculum curriculum curriculum certificate certificate"
+        "faq faq faq certificate certificate";
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto;
+    align-items: flex-start;
+}
+
+.features {
+    grid-area: features;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 20px;
+    border-radius: 20px;
+    grid-row-gap: 20px;
+}
+
+.heading {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.each_feature {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+.description {
+    grid-area: description;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 6px;
+    padding: 20px;
+    border-radius: 20px;
+    grid-row-gap: 15px;
+
+
+
+}
+
+.curriculum {
+    grid-area: curriculum;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 6px;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.faq {
+    grid-area: faq;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-gap: 6px;
+    padding: 20px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Certification styles */
+.certificate {
+    grid-area: certificate;
+    display: grid;
+    background-color: rgba(177, 106, 106, 0.025);
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    grid-gap: 6px;
+    border-radius: 20px;
+    width: 350px;
+
+}
+
+.certificate_sub {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 15px;
+    border: 1ps solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    grid-row-gap: 10px;
+}
+
+.duration {
+    display: grid;
+    min-width: 300px;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    justify-items: flex-start;
+    grid-gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+
+.du_heading {
+    font-size: 18px;
+    color: gray;
+}
+
+.time {
+    font-size: 14px;
+
+}
+
+.clockImg {
+    display: flex;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    background-color: rgba(0, 128, 0, 0.2);
+    border-radius: 50%;
+}
+
+/* Certification styles end*/
+
+.certi {
+    display: grid;
+    min-width: 300px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    align-items: center;
+    justify-items: flex-start;
+    grid-gap: 10px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    border-radius: 10px;
+}
+
+.creti_text {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-gap: 8px;
+    align-items: center;
+    justify-items: start;
+}
+
+.certificateBox {
+    display: grid;
+    width: 300px;
+    height: 200px;
+    background-color: gray;
+}
+
+/* Eligibility */
+.eligibility {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto auto;
+}
+
+.eli {
+    font-size: 14px;
+    color: gray;
+}
+
+/* pdf */
+.pdf {
+    display: grid;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 10px 10px;
+    border-radius: 20px;
+    grid-template-columns: auto 1fr auto;
+    grid-template-rows: 1fr;
+    align-items: center;
+    grid-column-gap: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.slider_1 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    padding: 15px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    grid-row-gap: 10px;
+
+}
+
+.slider_1_text {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+}
+
+.slider_1_heading {
+    font-size: 18px;
+    color: gray;
+
+}
+
+.slider_2 {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    padding: 15px;
+    border: 1ps solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    grid-row-gap: 10px;
+
+}
+
+.invite {
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto auto auto auto;
+    padding: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    grid-row-gap: 10px;
+
+}
+
+.invite_heading {
+    font-size: 18px;
+    color: rgb(77, 78, 131);
+}
+
+.invite_text {
+    font-size: 14px;
+    color: gray;
+}
+
+.invite_share {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 8px;
+    color: blueviolet;
+    font-size: 12px;
+}
+
+.bottom_text {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 30px;
+}
+
+/* Media  */
+
+@media (max-width : 650px) {
+    .container {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        max-width: 1300px;
+        grid-template-areas: "certificate certificate  certificate "
+            "features features features "
+            " description  description description"
+            "curriculum curriculum curriculum "
+            "faq faq faq ";
+        grid-gap: 10px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto;
+        align-items: center;
+    }
+
+    .certificate {
+        grid-area: certificate;
+        display: grid;
+        background-color: rgba(177, 106, 106, 0.025);
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        grid-gap: 6px;
+        border-radius: 20px;
+        width: 100%;
+
+    }
+
+    .certificate_sub {
+        background-color: white;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto auto auto;
+        padding: 15px;
+        border: 1ps solid rgba(0, 0, 0, 0.1);
+        border-radius: 20px;
+        grid-row-gap: 10px;
+    }
+
+    .bottom_text {
+        font-size: 16px;
+        font-weight: bold;
+        margin: 10px;
+    }
+}

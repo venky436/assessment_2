@@ -1,0 +1,231 @@
+.mainContainer {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+    background-color: rgba(177, 106, 106, 0.1);
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    padding: 20px 20px;
+    align-items: flex-start;
+    margin: 0 auto;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.fellow {
+    display: flex;
+    width: 100%;
+    max-width: 1300px;
+    padding: 10px 20px;
+    align-items: center;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.btns {
+    display: flex;
+    justify-self: flex-start;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.leftArrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.fellowshipBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background-color: white;
+    padding: 10px 16px;
+    font-size: 18px;
+    border-radius: 6px;
+}
+
+.leftSide {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 30px;
+    flex: 1;
+
+}
+
+.heading {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 43px;
+}
+
+.text {
+    font-size: 16px;
+    line-height: 22px;
+    max-width: 700px;
+}
+
+.starBox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.date_course {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 50px;
+}
+
+.batch {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.span {
+    font-size: 14px;
+    color: gray;
+}
+
+.date {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.buttonBox {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.enquire {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background-color: rgb(253, 87, 22);
+    color: white;
+    font-size: 14px;
+    min-width: 200px;
+    padding: 12px 12px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.buyNow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    min-width: 150px;
+    padding: 12px 12px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.bookMark {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+    background-color: white;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    cursor: pointer;
+}
+
+.hoverText {
+    display: none;
+}
+
+.bookMark:hover {
+    border: 7px solid rgba(128, 128, 128, 0.2);
+}
+
+.bookMark:hover .hoverText {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 100%;
+    background-color: rgb(24, 94, 223);
+    color: white;
+    padding: 4px;
+    border-radius: 10px;
+
+}
+
+/* Right styles */
+
+.rightSide {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.video {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    max-height: 480px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+/* Media */
+@media (max-width : 800px) {
+    .container {
+        display: flex;
+        width: 100%;
+        max-width: 1300px;
+        padding: 20px 20px;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+
+    .rightSide {
+        display: flex;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+
+    }
+}
