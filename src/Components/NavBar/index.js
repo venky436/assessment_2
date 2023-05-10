@@ -50,7 +50,7 @@ export default function Navbar() {
               <ul className={styles.links}>
                 {
                   links.map((each, index) => (
-                    <li className={styles.link}>
+                    <li className={styles.link} key={index}>
                       <Image src={heart} alt='heart' style={{
                         display: 'block',
                         width: '20px',
