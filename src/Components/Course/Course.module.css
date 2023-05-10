@@ -198,7 +198,7 @@
     align-items: center;
     justify-content: center;
     width: 300px;
-    max-height: 480px;
+    height: 350px;
     background-color: white;
     border-radius: 20px;
     overflow: hidden;

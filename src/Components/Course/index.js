@@ -111,13 +111,13 @@ export default function Course() {
                 </section>
                 <section className={styles.rightSide}>
                     <div className={styles.video}>
-                        <video  style={{ width: '100%', height: '100%' }}  ref={vidRef}
+                        <video  style={{ width: '100%', height: '100%',objectFit:"cover" }}  ref={vidRef}
                             muted
                             autoPlay
                             loop
                             playsInline
                             >
-                            <source src={'https://media.exper.com/exper-content-temp/200.mp4'} type="video/mp4" />
+                            <source src={'http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4'} type="video/mp4" />
                         </video>
                     </div>
                 </section>
