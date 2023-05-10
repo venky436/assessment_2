@@ -14,9 +14,9 @@ import degree from '../../images/degree.png'
 import certificate_2 from '../../images/certificate_1.jpg'
 import point from '../../images/point.png'
 
-import Slide_1 from '../../Images/slide_1.jpg'
-import Slide_2 from '../../Images/slide_2.png'
-import Slide_3 from '../../Images/slide_3.jpg'
+import Slide_1 from '../../images/slide_1.jpg'
+import Slide_2 from '../../images/slide_2.png'
+import Slide_3 from '../../images/slide_3.jpg'
 
 export default function MiddleSection({accordionData,curriculumData}) {
 

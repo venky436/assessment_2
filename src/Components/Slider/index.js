@@ -1,7 +1,7 @@
 import React,{useState} from 'react'
 import styles from './Slider.module.css'
-import leftArrow from '../../Images/leftArrow.png'
-import rightArrow from '../../Images/rightArrow.png'
+import leftArrow from '../../images/leftArrow.png'
+import rightArrow from '../../images/rightArrow.png'
 
 import Image from 'next/image'
 
